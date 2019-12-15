@@ -23,7 +23,7 @@ import xbmcaddon
 from BeautifulSoup import BeautifulStoneSoup, BeautifulSoup, BeautifulSOAP
 ###
 
-Versao = "14.12.19"
+versao = "14.12.19"
 
 viewmode=None
 try:
@@ -2887,10 +2887,10 @@ if mode==None:
     addon_log("Index")
     SKindex()	
 
-#elif mode==1:
-#    addon_log("getData")
-#    getData(url,fanart)
-#    xbmcplugin.endOfDirectory(int(sys.argv[1]))
+elif mode==1:
+    addon_log("getData")
+    getData(url,fanart)
+    xbmcplugin.endOfDirectory(int(sys.argv[1]))
 
 elif mode==1:
     addon_log("getData")
