@@ -45,7 +45,7 @@
 
 <addon id="plugin.video.apollo"
                name="[COLOR deepskyblue][B]APOLLO[/COLOR][/B]"
-       version="1.2.8"
+       version="1.2.9"
        provider-name="APOLLO">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
